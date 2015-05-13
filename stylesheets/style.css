@@ -1,0 +1,30 @@
+body {
+	background: url('../images/background_img.png');
+	background-repeat: repeat;
+}
+
+table {
+	border: 2px solid black; 
+}
+
+table td {
+	background-color: rgb(143, 0, 143);
+	padding: 50px;
+}
+
+#container {
+	background-color: rgba(255,255,255,0.6);		/* 0.6 opacity */
+	height: 80vh;
+	padding: 3% 10% 3% 10%; 										/* top right bottom left */
+	margin-top: 10vh; 													/* viewport height, percentage of screen height */
+	margin-bottom: 10vh;
+}
+
+#introduction { 															/* An id is mostly used in one place only */
+	font-size: 2em;															/* Size set with em will allow the user to change font size in their own browser */
+}
+
+.content { 																		/* A class can be used on several different places */
+	font-size: 1.1em;
+	padding: 3px;
+}
